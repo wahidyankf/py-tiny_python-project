@@ -1,3 +1,14 @@
 # Tiny Python Project
 
 This is a follow-along repository of Tiny Python Project's Book.
+
+## How to run
+
+- setup virtualenv: `pyenv virtualenv 3.12 tiny-python-projects`
+- activate virtualenv: `pyenv local tiny-python-projects`
+- making sure it is active: `pyenv which python`, `pyenv which pip`
+- manually activate and deactivate: `pyenv activate tiny-python-projects`, `pyenv deactivate tiny-python-projects`
+
+## References
+
+- [More about pyenv](https://realpython.com/intro-to-pyenv/)
